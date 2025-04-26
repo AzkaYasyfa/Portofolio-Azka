@@ -466,104 +466,60 @@
   }
   
   @media (max-width: 480px) {
-  /* Header */
-  #header {
-    padding: 10px 20px;
+    /* Contact Section */
+    .contact-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 30px;
+      width: 100%;
+    }
+  
+    .contact-info {
+      width: 100%;
+    }
+  
+    .contact-info h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .contact-info p {
+      font-size: 16px;
+    }
+  
+    .form {
+      width: 100%;
+    }
+  
+    .form-inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+    }
+  
+    .form-inputs input,
+    .form-inputs textarea {
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 15px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+  
+    .form-button {
+      width: 100%;
+    }
+  
+    .form-button button {
+      width: 100%;
+      font-size: 18px;
+      padding: 12px 0;
+      background-color: #1c3f6e;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
   }
-
-  .nav-logo .nav-name {
-    font-size: 18px;
-  }
-
-  /* Home Section */
-  .featured-name h1 {
-    font-size: 32px;
-  }
-
-  .hello p,
-  .text-info p {
-    font-size: 14px;
-  }
-
-  .btn {
-    width: 100%;
-    font-size: 16px;
-    padding: 12px 0;
-    margin: 0 auto;
-    display: block;
-  }
-
-  .text-btn {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .featured-image .image img {
-    width: 150px;
-  }
-
-  /* About Section */
-  .top-header h1 {
-    font-size: 26px;
-  }
-
-  .about-me .profile {
-    width: 130px;
-    height: 130px;
-  }
-
-  .skill-box .title {
-    text-align: center;
-  }
-
-  .skill-bar {
-    height: 12px;
-    width: 90%;
-    margin: 0 auto;
-    background: #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-
-  .skill-per {
-    height: 100%;
-    background: #1c3f6e;
-  }
-
-  /* Project & Design Section */
-  .project-gallery,
-  .design-gallery {
-    grid-template-columns: 1fr;
-  }
-
-  .project-item h3,
-  .design-item h3 {
-    font-size: 1rem;
-  }
-
-  /* Contact Section */
-  .contact-info h2 {
-    font-size: 20px;
-  }
-
-  .form-inputs {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  /* Footer */
-  footer {
-    padding: 30px 5%;
-  }
-
-  .footer-menu {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .footer-social-icons {
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-}
