@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.2.0/css/line.min.css" />
+</head>
+<body>
+  <!-- Nav Menu -->
+  <div class="container">
+    <nav id="header">
+      <div class="nav-logo">
+        <p class="nav-name">Portofolio Azka</p>
+      </div>
+      <div class="nav-menu" id="myNavMenu">
+        <ul class="nav_menu_list">
+          <li class="nav_list"><a href="#home" class="nav-link active-link">Home</a><div class="circle"></div></li>
+          <li class="nav_list"><a href="#about" class="nav-link">About</a><div class="circle"></div></li>
+          <li class="nav_list"><a href="#projects" class="nav-link">Projects</a><div class="circle"></div></li>
+          <li class="nav_list"><a href="#design" class="nav-link">Design</a><div class="circle"></div></li>
+          <li class="nav_list"><a href="#contact" class="nav-link">Contact</a><div class="circle"></div></li>
+        </ul>
+      </div>
+      <div class="mode">
+        <div class="moon-sun" id="toggle-switch">
+        </div>
+      </div>
+      <div class="nav-menu-btn">
+        <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="wrapper">
+      <!-- Home Section -->
+      <section class="featured-box" id="home">
+        <div class="featured-text">
+          <div class="hello"><p>Hello I'm</p></div>
+          <div class="featured-name"><h1>Azka Yasyfa Fuadiah</h1></div>
+          <div class="text-info">
+            <p>I'm a 4th-semester student majoring in Information Systems at Global Institute.</p>
+          </div>
+          <div class="text-btn">
+            <button class="btn hire-btn">Hire Me</button>
+            <button class="btn">Download CV <i class="uil uil-file"></i></button>
+          </div>
+          <div class="social-icons">
+            <div class="icons-circle">
+              <div class="icon"><i class="uil uil-instagram"></i></div>
+              <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+              <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="featured-image">
+          <div class="image">
+            <img src="img/azka.png" alt="Profile Image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="section" id="about">
+        <div class="top-header"><h1>About Me</h1></div>
+        <div class="row">
+          <div class="col">
+            <div class="about-info">
+              <figure class="about-me">
+                <figcaption>
+                    <img src="img/azka.png" alt="Profile" class="profile" />
+                    <h2>College Student</h2>
+                  <p>Hi, I'm Azka Yasyfa Fuadiah!
+                    I'm a 4th-semester student majoring in Information Systems at Global Institute. I'm currently focusing on web development, especially in front-end, and also have a strong interest in data analysis. In addition, I'm actively involved in the Student Executive Board (BEM) as part of the PDD (Publication, Documentation, and Design) division, where I contribute to creating content and documenting campus activities.
+                    This portfolio showcases my projects and serves as a starting point for my journey in the tech world.</p>
+                </figcaption>
+              </figure>
+              <button class="about-me-btn">Hire Me</button>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-box">
+              <span class="title">HTML</span>
+              <div class="skill-bar"><span class="skill-per"><span class="tooltip">50%</span></span></div>
+            </div>
+            <div class="skill-box">
+              <span class="title">Python</span>
+              <div class="skill-bar"><span class="skill-per python"><span class="tooltip">40%</span></span></div>
+            </div>
+            <div class="skill-box">
+              <span class="title">Design</span>
+              <div class="skill-bar"><span class="skill-per design"><span class="tooltip">75%</span></span></div>
+            </div>
+            <div class="skill-box">
+                <span class="title">PHP</span>
+                <div class="skill-bar"><span class="skill-per php"><span class="tooltip">50%</span></span></div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="section" id="projects">
+        <div class="top-header"><h1>Projects</h1></div>
+        <div class="project-gallery">
+          <div class="project-item">
+            <img src="img/projek1.png" alt="Project 1">
+            <h3>Web-based library Admin</h3>
+          </div>
+          <div class="project-item">
+            <img src="img/projek2.png" alt="Project 2">
+            <h3>Online Clothing Store Webstite </h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Design Section -->
+      <section class="section" id="design">
+        <div class="top-header"><h1>Design</h1></div>
+        <div class="design-gallery">
+          <div class="design-item">
+            <img src="img/desain1.png" alt="Project 1">
+            <h3>Ramadhan Safari Event Flyer</h3>
+            <p>As part of the Public Relations and Design team in the Student Executive Board (BEM), I created a poster for the Safari Ramadhan event.</p>
+          </div>
+          <div class="design-item">
+            <img src="img/desain3.png" alt="Project 2">
+            <h3>Digital Wizard Event Flyer</h3>
+            <p>A poster design created to promote the Digital Wizard event, an initiative organized under the Student Executive Board (BEM) to enhance students digital skills and creativity.</p>
+          </div>
+          <div class="design-item">
+            <img src="img/desain2.png" alt="Project 2">
+            <h3>Mother;s day Poster</h3>
+            <p>Created a Mother's Day poster for the Student Executive Board (BEM) Instagram, designed to celebrate and honor the role of mothers with a warm and heartfelt visual concept.</p>
+          </div>
+          <div class="design-item">
+            <img src="img/desain4.png" alt="Project 2">
+            <h3>Open Recruitment Flyer</h3>
+            <p>Designed an Open Recruitment poster for the Student Executive Board (BEM) to attract new members, using a clear, engaging, and dynamic visual style to encourage student participation.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section" id="contact">
+        <div class="top-header"><h1>Contact Me</h1></div>
+        <div class="row">
+          <div class="col">
+            <div class="contact-info">
+              <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+              <p><i class="uil uil-envelope"></i> azka@gmail.com</p>
+              <p><i class="uil uil-phone"></i> +62 812-3456-7890</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-control">
+              <div class="form-inputs">
+                <input type="text" class="input-field" placeholder="Your Name" />
+                <input type="email" class="input-field" placeholder="Your Email" />
+              </div>
+              <div class="text-area">
+                <input type="text" class="input-subject" placeholder="Subject" />
+                <textarea placeholder="Message"></textarea>
+              </div>
+              <div class="form-button">
+                <button class="btn">Send <i class="uil uil-message"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="middle-footer">
+        <ul class="footer-menu">
+          <li class="footer_menu_list"><a href="#home">Home</a></li>
+          <li class="footer_menu_list"><a href="#about">About</a></li>
+          <li class="footer_menu_list"><a href="#projects">Projects</a></li>
+          <li class="footer_menu_list"><a href="#design">Design</a></li>
+          <li class="footer_menu_list"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social-icons">
+        <div class="icon"><i class="uil uil-instagram"></i></div>
+        <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+        <div class="icon"><i class="uil uil-github-alt"></i></div>
+      </div>
+      <div class="bottom-footer">
+        <p>Copyright &copy;
+          <a href="#home" style="text-decoration: none;">Azka Yasyfa</a> - All rights reserved
+        </p>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
