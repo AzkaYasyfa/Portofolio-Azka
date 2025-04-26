@@ -465,7 +465,7 @@
     color: #1c3f6e;
   }
   
-@media (max-width: 480px) {
+  @media (max-width: 480px) {
   /* Header */
   #header {
     padding: 10px 20px;
